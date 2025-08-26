@@ -1,0 +1,38 @@
+ @keyframes grow{
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1) ;
+  }
+}
+
+@keyframes groww {
+  0% {
+    transform: scale(1) translateX(0);
+  }
+  50% {
+    transform: scale(-1, 1.1) translateX(-150px);
+  }
+  100% {
+    transform: scale(1) translateX(0);
+  }
+}
+
+@keyframes flip-grow {
+  0% {
+    transform: scale(1) translateY(0);
+    transform: scale(1) translateX(0);
+  }
+  50% {
+    transform: scale(-1, 1.1) translateY(-150px);
+    transform: scale(-1, 1.1) translateX(-150px);
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    transform: scale(1) translateX(0);
+  }
+}

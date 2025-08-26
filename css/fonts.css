@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Anthony";
+  src: url("/fonts/Anthony.ttf");
+}
+
+@font-face {
+  font-family: "Knewave";
+  src: url("/fonts/Knewave-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Flavors";
+  src: url("/fonts/Flavors-Regular.ttf");
+}
+
+@font-face{
+    font-family: "poppins";
+    src: url("/fonts/Poppins-Regular.ttf");
+}
+
+@font-face{
+    font-family: "poppins-bold";
+    src: url("/fonts/Poppins-Bold.ttf");
+}
+
+@font-face{
+    font-family: "poppins-thin";
+    src: url("/fonts/Poppins-Thin.ttf");
+}
