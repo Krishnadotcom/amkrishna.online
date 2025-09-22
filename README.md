@@ -14,3 +14,6 @@ This repository contains the source code for my personal portfolio website, buil
 ## Getting Started
 
 1. **Clone this repository:**
+    ```bash
+    git clone https://github.com/Krishnadotcom/AMKRISHNAX.git
+    ```
