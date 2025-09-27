@@ -196,7 +196,7 @@ h2 {
 }
 
 #projects {
-  background-color: rgb(13, 80, 138);
+  /* background-color: rgb(13, 80, 138); */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -206,7 +206,7 @@ h2 {
 }
 
 .project-container {
-  background-color: #017011;
+  /* background-color: #017011; */
   width: 70%;
   height: 400px;
   display: flex;
@@ -227,11 +227,31 @@ h2 {
   justify-content: center;
 }
 
-.autopentest-content{
+.autopentest-content {
   display: flex;
-  gap: 50px;
+  flex-direction: row;
+  gap: 30px;
   justify-content: center;
   align-items: center;
 }
 
-.
+.auto-pentestx p {
+  flex: 1;
+  min-width: 300px;
+  line-height: 16px;
+  /* border: #3aafb9 1px solid; */
+  font-family: poppins, Arial, sans-serif;
+  color: var(--color-accent);
+}
+
+.auto-pentestx h3 {
+  color: white;
+  font-family: "poppins-bold", Arial, sans-serif;
+  font-weight: 900;
+  margin: 0px;
+}
+
+.auto-pentestx img {
+  border: #3aafb9 0px solid;
+  border-radius: 50%;
+}
